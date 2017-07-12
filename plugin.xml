@@ -3,7 +3,9 @@
     id="com.cordova.smtp.client" version="0.0.1">
     
     <name>Cordova SMTP Client</name>
-    
+    <description>SMTP plugin client</description>
+	
+	
     <engines>
         <engine name="cordova" version=">=3.4.0"/>
     </engines>
