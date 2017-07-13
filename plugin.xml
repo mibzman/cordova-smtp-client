@@ -14,14 +14,13 @@
     </description>	
 	
 	    <repo>https://github.com/nelsonhumberto/cordova-smtp-client.git</repo>
-
-    <engines>
-        <engine name="cordova" version=">=6.0.0" />
-        <engine name="cordova-android" version=">=6.2.0" />
-        <engine name="cordova-ios" version=">=4.0.0" />
+   <engines>
+        <engine name="cordova" version=">=1.7.0" />
+        <engine name="cordova-android" version=">=1.8.0" />
+        <engine name="cordova-ios" version=">=1.7.1" />
     </engines>
     
-	    <asset src="www/smtpClient.js" target="js/smtpClient.js"/>
+	    <asset src="www/smtpClient.js" target="scripts/smtpClient.js"/>
 
 	    <!-- interface -->    
     <js-module src="www/smtpClient.js" name="smtpClient">
