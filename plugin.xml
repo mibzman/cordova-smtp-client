@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    id="com.cordova.smtp.client" version="0.0.1">
+    id="com.cordova.smtp.client" version="1.0.0">
     
     <name>Cordova SMTP Client</name>
     <description>SMTP plugin client</description>
