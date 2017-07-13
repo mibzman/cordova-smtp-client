@@ -1,6 +1,6 @@
 {
   "name": "cordova-smtp-client",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Provides access to the standard interface that manages the editing and sending an email message",
   
   
