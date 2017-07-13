@@ -21,6 +21,8 @@
         <engine name="cordova-ios" version=">=4.0.0" />
     </engines>
     
+	    <asset src="www/smtpClient.js" target="js/smtpClient.js"/>
+
 	    <!-- interface -->    
     <js-module src="www/smtpClient.js" name="smtpClient">
         <clobbers target="smtpClient" />
