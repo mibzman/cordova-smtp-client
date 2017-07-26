@@ -4,7 +4,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-smtp-client"
-        version="2.0.3">
+        version="2.0.4">
     
     <name>Cordova SMTP Client</name>
 	
@@ -20,7 +20,7 @@
         <engine name="cordova-ios" version=">=1.7.1" />
     </engines>
     
-	    <asset src="www/smtpClient.js" target="scripts/smtpClient.js"/>
+	    <asset src="www/smtpClient.js" target="js/smtpClient.js"/>
 
 	    <!-- interface -->    
     <js-module src="www/smtpClient.js" name="smtpClient">
