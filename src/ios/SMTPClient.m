@@ -84,7 +84,9 @@
         NSMutableString *attachedFilename = [NSMutableString stringWithString:@"text/directory;\r\n\tx-unix-mode=0644;\r\n\tname=\""] ;
         [attachedFilename appendString:fileName];
         
-        NSData *fileData = [NSData dataFromBase64String:[imageDataSplitByComma objectAtIndex:1]];
+
+        NSData *fileData = [[NSData alloc] initWithBase64EncodedString:[imageDataSplitByComma objectAtIndex:1] options:0];
+        // NSData *fileData = [NSData dataFromBase64String:[imageDataSplitByComma objectAtIndex:1]];
         
         NSMutableString *attachementString = [NSMutableString stringWithString:@"attachment;\r\n\tfilename=\""];
         [attachementString appendString:fileName];
